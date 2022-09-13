@@ -1,23 +1,11 @@
-# elon-tribute-page
-Tribute page about Elon Musk
-Build a Tribute Page
+#elon-tribute-page
 
-Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
+## This is a tribute page about Elon Musk.
 
-* Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+It was specified in the user-stories given in the Free Code Camp Certification Project 'Tribute Page'
 
-* You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+It is part of the **(New) Responsive Web Design** Course at [freeCodeCamp.org](freeCodeCamp.org)
 
-* You should see either a figure or a div element with an id of img-div
+view the project live at: https://exarp1.github.io/elon-tribute-page
 
-* Within the #img-div element, you should see an img element with a corresponding id="image"
-
-* Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div
-
-* You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page
-
-* You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab
-
-* Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
-
-* Your img element should be centered within its parent element
+![image](Screenshot%202022-09-13%20at%2009-37-17%20Elon%20Musk%20-%20A%20Controversial%20Genius.jpg)
