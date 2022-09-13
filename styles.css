@@ -10,7 +10,7 @@ body {
 }
 
 #main {
-    background: hsl(128, 20%, 90%);
+    background: rgb(35 139 191 / 8%);
     margin: 20px auto;
     width: 90vw;
     border-radius: 10px;
@@ -46,8 +46,9 @@ body {
 }
 
 img {
+    display:block;
     width: 100%;
-    max-width: 90vw;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -57,15 +58,14 @@ img {
     margin: 0 auto;
 }
 
-#tribute-link {
+footer p {
     text-align: center;
     padding: 10px;
 }
 
 a {
     text-decoration: none;
-    font-weight: 500;
-    color:rgb(0, 0, 128);
+    font-weight: 600;
 }
 
 a:hover {
@@ -78,4 +78,23 @@ a:hover {
 hr {
     width: 80vw;
     color: #143e69;
+}
+
+.centered {
+    margin: inherit auto;
+    text-align: center;
+}
+
+.quote {
+    border-left: 4px solid lightsteelblue;
+    background-color: rgba(0,0,100,0.05);
+    padding: 10px;
+    font-size: medium;
+    font-style:italic;
+    opacity: .75;
+}
+
+.accomplishments ul li {
+    font-size: medium;
+    padding: 5px 0;
 }
